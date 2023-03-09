@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=LAPTOP-NH6KGLB5;Database=AFONIN;User Id=TadWhat;password=123;Trusted_Connection=False;encrypt=true;TrustServerCertificate=true;MultipleActiveResultSets=true"
+  }
+}

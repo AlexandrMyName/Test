@@ -1,0 +1,29 @@
+﻿@model TadWhat.Domain.UserAddress;
+
+<head>
+
+</head>
+<div style="color: #b5b138">
+
+    <form asp-controller="Home" asp-action="GetInfoAboutAddress" method="post">
+        <p>
+            <label for="City" class="col-form-label">Город:</label>
+            <input type="text" class="input-group-text" asp-for="City" />
+            <span asp-validation-for="City" class="text-danger"></span>
+        </p>
+        <p>
+            <label for="Street" class="col-form-label">Улица:</label>
+            <input type="text" class="input-group-text" asp-for="Street" />
+            <span asp-validation-for="Street" class="text-danger"></span>
+        </p>
+
+        <p>
+            <label for="House" class="col-form-label">Дом:</label>
+            <input type="text" class="input-group-text" asp-for="House" />
+            <span asp-validation-for="House" class="text-danger"></span>
+        </p>
+        <br />
+        <button type="submit" class="btn-outline-info">Найти инфу</button>
+    </form>
+</div>
+
